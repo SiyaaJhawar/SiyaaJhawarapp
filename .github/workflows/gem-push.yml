@@ -19,9 +19,9 @@ jobs:
       run: |
         gem install bundler
         gem install faraday-retry
-        bundle update mustermann
-        gem  mustermann
         
+        gem install mustermann
+        bundle update mustermann
         bundle install
     - name: Run tests
       run: bundle exec rspec
