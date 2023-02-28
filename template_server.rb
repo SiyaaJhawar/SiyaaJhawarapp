@@ -10,6 +10,12 @@ require 'logger'      # Logs debug statements
 set :port, 3000
 set :bind, '0.0.0.0'
 
+require 'sinatra'
+
+get '/' do
+  'Hello, world!'
+end
+
 
 # This is template code to create a GitHub App server.
 # You can read more about GitHub Apps here: # https://developer.github.com/apps/
