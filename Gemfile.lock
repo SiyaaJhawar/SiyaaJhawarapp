@@ -1,5 +1,9 @@
 GEM
   remote: http://rubygems.org/
+  require 'mustermann'
+
+pattern_string = "/users/:id"
+pattern = Mustermann::Pattern.new(pattern_string)
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
