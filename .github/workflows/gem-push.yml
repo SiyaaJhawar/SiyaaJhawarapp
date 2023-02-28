@@ -21,7 +21,7 @@ jobs:
         bundle install
     - name: Run tests
       run: bundle exec rspec
-    -  run: template_server.rb
+    -  run: bundle exec ruby template_server.rb
 
 
 
