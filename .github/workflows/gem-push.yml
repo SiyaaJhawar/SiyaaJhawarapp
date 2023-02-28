@@ -20,7 +20,7 @@ jobs:
         gem install bundler
         bundle install
     - name: Run tests
-      #run: bundle exec rspec
+      run: bundle exec rspec
     -  run: template_server.rb
 
 
