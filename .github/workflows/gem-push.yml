@@ -18,8 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         gem install bundler
-        gem install thin
-        gem install puma
+        gem install faraday-retry
         
         bundle install
     - name: Run tests
