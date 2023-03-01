@@ -30,7 +30,7 @@ jobs:
         
     - name: Run tests
       run: bundle exec rspec
-    -  run: bundle exec ruby template_server.rb
+    -  run: bundle exec ruby template_server.rb -o 0.0.0.0
 
 
 
