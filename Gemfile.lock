@@ -1,5 +1,5 @@
 GEM
-  require 'mustermann'
+  'require 'mustermann''
   remote: http://rubygems.org/
   
 
