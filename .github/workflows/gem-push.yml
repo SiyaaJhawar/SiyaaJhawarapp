@@ -19,7 +19,8 @@ jobs:
       run: |
         gem install bundler
         gem install faraday-retry
-        gem  mustermann
+        gem list mustermann
+        gem install mustermann
         bundle update mustermann
         bundle install
     - name: Run tests
