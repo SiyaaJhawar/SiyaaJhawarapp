@@ -33,7 +33,7 @@ end
 #
 # Have fun!
 #
-
+set :server, :webrick
 class GHAapp < Sinatra::Application
 
   # Expects that the private key in PEM format. Converts the newlines
