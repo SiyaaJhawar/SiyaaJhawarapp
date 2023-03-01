@@ -18,7 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         gem install bundler
-        faraday-retry: gem install faraday-retry
+        gem install faraday-retry
          gem update bundler
         gem install mustermann
         bundle install
