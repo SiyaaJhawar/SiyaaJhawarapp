@@ -20,7 +20,7 @@ jobs:
         gem install bundler
         gem install faraday-retry
         gem install mustermann
-        gem list mustermann
+        bundle install
         
         bundle update mustermann
      
