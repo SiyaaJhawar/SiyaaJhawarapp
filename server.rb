@@ -9,6 +9,7 @@ require 'logger'      # Logs debug statements
 
 set :port, 3000
 set :bind, '0.0.0.0'
+set :server, :webrick
 
 class GHAapp < Sinatra::Application
 
