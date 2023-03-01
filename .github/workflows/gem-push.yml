@@ -18,12 +18,15 @@ jobs:
     - name: Install dependencies
       run: |
         gem install bundler
-      
+         gem update bundler
         gem install mustermann
         bundle install
-        gem update bundler
-        bundle update mustermann
         gem install faraday-retry
+        gem install webrick
+
+       
+        bundle update mustermann
+        
     - name: Run tests
       run: bundle exec rspec
     -  run: bundle exec ruby template_server.rb
