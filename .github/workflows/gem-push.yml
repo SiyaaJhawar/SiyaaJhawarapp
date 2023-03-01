@@ -18,10 +18,11 @@ jobs:
     - name: Install dependencies
       run: |
         gem install bundler
+        gem install faraday-retry 
          gem update bundler
         gem install mustermann
         bundle install
-        install `faraday-retry` gem
+      
         gem install webrick
 
        
