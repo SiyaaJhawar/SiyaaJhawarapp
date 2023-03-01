@@ -21,7 +21,7 @@ jobs:
          gem update bundler
         gem install mustermann
         bundle install
-        gem install faraday-retry
+        install `faraday-retry` gem
         gem install webrick
 
        
