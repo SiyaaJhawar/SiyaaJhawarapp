@@ -22,7 +22,7 @@ jobs:
         gem list mustermann
         gem install mustermann
         bundle update mustermann
-        bundle install
+     
     - name: Run tests
       run: bundle exec rspec
     -  run: bundle exec ruby template_server.rb
